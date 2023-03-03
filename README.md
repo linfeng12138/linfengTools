@@ -18,15 +18,12 @@
 
 # 目录
 
-[基础工具](#base)
-
-- [类型判断](#judgeDataType)
-- [空值判断](#judgeNullValue)
-- [日期格式化](#formatDate)
-
-[动画](#animation)
-
-- [文字上浮并消失](#linfengToolsAnimationFloatText)
+- [基础工具](#base)
+  - [类型判断](#base1)
+  - [空值判断](#judgeNullValue)
+  - [日期格式化](#formatDate)
+- [动画](#animation)
+  - [文字上浮并消失](#linfengToolsAnimationFloatText)
 
 
 
@@ -40,7 +37,7 @@
 
 
 
-## <span id="judgeDataType">类型判断</span>
+## <span id="base1">类型判断</span>
 
 该功能用于对数据类型的判断，即传递一个参数后以字符串形式返回该参数的数据类型
 
