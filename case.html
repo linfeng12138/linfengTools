@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入css -->
+    <link rel="stylesheet" href="./linfengTools.css">
+    <!-- 引入js -->
+    <script src="./linfengTools.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello world</h1>
+</body>
+<script>
+    // // 启用单击浮出文字动画
+    // linfeng.animat.floatText(['林风', '666', 'linfeng', 666])
+
+    // // 日期格式化
+    // const dateTime = linfeng.date(new Date())
+    // document.write("页面启动时间：", dateTime)
+
+    // 空值判断
+    const tmpText1 = "  "
+    const tmpArray1 = []
+    const tmp1 = linfeng.null(tmpText1)
+    const tmp2 = linfeng.null(tmpArray1)
+    console.log("字符串" + tmpText1 + "是否为空：", tmp1)
+    console.log("数组", tmpArray1, "是否为空：", tmp2)
+
+    // 类型判断
+    const tmp3 = linfeng.type("asd")
+    console.log("asd的数据类型为：", tmp3);
+</script>
+</html>
