@@ -19,11 +19,11 @@
 # 目录
 
 - [基础工具](#base)
-  - [类型判断](#base1)
-  - [空值判断](#judgeNullValue)
-  - [日期格式化](#formatDate)
+  - [类型判断](#judgedatatype)
+  - [空值判断](#judgenullvalue)
+  - [日期格式化](#dateformat)
 - [动画](#animation)
-  - [文字上浮并消失](#linfengToolsAnimationFloatText)
+  - [文字上浮并消失](#floattext)
 
 
 
@@ -37,7 +37,7 @@
 
 
 
-## <span id="base1">类型判断</span>
+## <span id="judgedatatype">类型判断</span>
 
 该功能用于对数据类型的判断，即传递一个参数后以字符串形式返回该参数的数据类型
 
@@ -77,7 +77,7 @@ const result = linfeng.type("asd")// String
 
 
 
-## <span id="judgeNullValue">空值判断</span>
+## <span id="judgenullvalue">空值判断</span>
 
 本功能可以用来判断参数是否为空，若是空值则返回true，否则返回false
 
@@ -114,7 +114,7 @@ const result = linfeng.null("asd")// false
 
 
 
-## <span id="formatDate">日期格式化</span>
+## <span id="dateformat">日期格式化</span>
 
 该工具用来指定格式，格式化日期。
 
@@ -152,7 +152,7 @@ const result = linfeng.date(new Date("2066/6/6"))// 2066-06-06 00:00:00
 
 
 
-## <span id="linfengToolsAnimationFloatText">文字上浮消失动画</span>
+## <span id="floattext">文字上浮消失动画</span>
 
 羡慕别人博客拥有一些炫酷的单击出现漂浮文字特效吗？来，往这边看来，这个功能可以让你拥有同样的效果
 
