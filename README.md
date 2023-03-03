@@ -18,12 +18,15 @@
 
 # 目录
 
-- [基础工具](#base)
-  - [类型判断](#judgeDataType)
-  - [空值判断](#judgeNullValue)
-  - [日期格式化](#formatDate)
-- [动画](#animation)
-  - [文字上浮并消失](#linfengToolsAnimationFloatText)
+[基础工具](#base)
+
+- [类型判断](#judgeDataType)
+- [空值判断](#judgeNullValue)
+- [日期格式化](#formatDate)
+
+[动画](#animation)
+
+- [文字上浮并消失](#linfengToolsAnimationFloatText)
 
 
 
